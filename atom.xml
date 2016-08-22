@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>hexo</title>
+  <subtitle>郝金刚博客</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://hjg8858.github.io/"/>
+  <updated>2016-08-22T09:32:07.562Z</updated>
+  <id>https://hjg8858.github.io/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>me1</title>
+    <link href="https://hjg8858.github.io/2016/08/22/me1/"/>
+    <id>https://hjg8858.github.io/2016/08/22/me1/</id>
+    <published>2016-08-22T09:32:07.000Z</published>
+    <updated>2016-08-22T09:32:07.562Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>me</title>
+    <link href="https://hjg8858.github.io/2016/08/22/me/"/>
+    <id>https://hjg8858.github.io/2016/08/22/me/</id>
+    <published>2016-08-22T09:29:09.000Z</published>
+    <updated>2016-08-22T09:29:09.686Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo-question</title>
+    <link href="https://hjg8858.github.io/2016/08/19/Hexo-question/"/>
+    <id>https://hjg8858.github.io/2016/08/19/Hexo-question/</id>
+    <published>2016-08-19T11:20:13.000Z</published>
+    <updated>2016-08-19T11:20:13.989Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo写博客托管github指南</title>
+    <link href="https://hjg8858.github.io/2016/08/19/Hexo-guide/"/>
+    <id>https://hjg8858.github.io/2016/08/19/Hexo-guide/</id>
+    <published>2016-08-19T08:42:57.000Z</published>
+    <updated>2016-08-19T13:15:04.942Z</updated>
+    
+    <content type="html"><![CDATA[<p>哈哈 我的算是有自己的博客了~~~<br>qqqq</p>
+<p> 一般使用 goagent 翻墙，他的默认端口是 8087<br>npm confi g set proxy=<a href="http://127.0.0.1:8087" target="_blank" rel="external">http://127.0.0.1:8087</a></p>
+<p>npm config set https_proxy=<a href="http://127.0.0" target="_blank" rel="external">http://127.0.0</a><br> 设置 https 的代理.1:8087</p>
+<figure class="highlight cs"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">Demo</span>&#123;</div><div class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span>(<span class="params">String [] args</span>)</span>&#123;</div><div class="line">		System.<span class="keyword">out</span>.print(<span class="string">"hello World"</span>)</div><div class="line">	&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>qq</p>
+<figure class="highlight java"><figcaption><span>This is a java</span><a href="http://www.baidu.com" target="_blank" rel="external">link</a></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Demo</span></span>&#123;</div><div class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String [] args)</span></span>&#123;</div><div class="line">		System.out.print(<span class="string">"hello World"</span>)</div><div class="line">	&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight java"><figcaption><span>This is a java</span><a href="http://www.baidu.com" target="_blank" rel="external">link</a></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Demo</span></span>&#123;</div><div class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String [] args)</span></span>&#123;</div><div class="line">		System.out.print(<span class="string">"hello World"</span>)</div><div class="line">	&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>daima</p>
+<p><code>public class Demo{
+    public static void main(String [] args){
+        System.out.print(&quot;hello World&quot;)
+    }</code></p>
+<p>2.服务器的机子，只能访问内网，不能访问外网。<br>3.npm 安装命令都要有外网访问。难道一个接一个下载依赖包？   </p>
+<ol>
+<li></li>
+<li>6.答案很简单，用代理，把服务器上的npm，设置代理到可以访问外网的机子上（代理工具：ccproxy、fiddler等），即可解决问题！   </li>
+<li></li>
+<li>9.#npm config set proxy <a href="http://proxy.company.com:8080" target="_blank" rel="external">http://proxy.company.com:8080</a><br>10.#npm config set https-proxy <a href="http://proxy.company.com:8080" target="_blank" rel="external">http://proxy.company.com:8080</a>   </li>
+<li></li>
+<li>13.搞到以后，删除代理设置：<br>14.#npm config delete proxy<br>15.#npm config delete https-proxy   </li>
+<li>17.其它详细参数：<a href="https://npmjs.org/doc/config.html" target="_blank" rel="external">https://npmjs.org/doc/config.html</a>   </li>
+<li></li>
+<li>20.附：直接给linux设置网络代理：<br>21.#export http_proxy <a href="http://proxy.company.com:8080" target="_blank" rel="external">http://proxy.company.com:8080</a><br>22.#export https_proxy <a href="http://proxy.company.com:8080" target="_blank" rel="external">http://proxy.company.com:8080</a> </li>
+</ol>
+<p>发布博客<br>hexo generate 或 hexo g 写完博客后, 生成静态内容<br>hexo server 或 hexo s 启动本地服务器可以先看一下效果<br>hexo deploy 或 hexo d 发布到外网</p>
+<p>在_config.yml中加入一行(空格不能省略)<br>1<br>marked: {smartypants: false}</p>
+<p>title: Ubuntu下安装phpmyadmin<br>date: 2015-07-17</p>
+<h2 id="tags-ubuntu-phpmyadmin"><a href="#tags-ubuntu-phpmyadmin" class="headerlink" title="tags: [ubuntu, phpmyadmin]"></a>tags: [ubuntu, phpmyadmin]</h2><p>hexo new “Hello Hexo” 或 hexo n “Hello Hexo” 生成一个markdown文件骨架用于填写内容<br>markDowwn 和Hexo入门指南<br><a href="https://wizardforcel.gitbooks.io/markdown-simple-world/content/7.html" target="_blank" rel="external">https://wizardforcel.gitbooks.io/markdown-simple-world/content/7.html</a></p>
+<p>hexo常用命令<br>hexo n #写文章<br>hexo g #生成静态页面<br>hexo d #部署到github<br>hexo s #本地启动</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;哈哈 我的算是有自己的博客了~~~&lt;br&gt;qqqq&lt;/p&gt;
+&lt;p&gt; 一般使用 goagent 翻墙，他的默认端口是 8087&lt;br&gt;npm confi g set proxy=&lt;a href=&quot;http://127.0.0.1:8087&quot; target=&quot;_blank&quot; r
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="https://hjg8858.github.io/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://hjg8858.github.io/2016/08/18/hello-world/"/>
+    <id>https://hjg8858.github.io/2016/08/18/hello-world/</id>
+    <published>2016-08-18T12:44:55.590Z</published>
+    <updated>2016-08-19T14:23:25.150Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+      <category term="hello" scheme="https://hjg8858.github.io/categories/hello/"/>
+    
+    
+  </entry>
+  
+</feed>
